@@ -112,14 +112,14 @@ public class TrdControl : MonoBehaviour
     private void FixedUpdate()
     {
 
-        float vel = rdb.velocity.magnitude;
+        float vel = rdb.linearVelocity.magnitude;
 
         //limite de velocidade
         rdb.AddForce((move * forcemove)/ (vel*2+1));
         anim.SetFloat("Velocity", vel);
 
         //velocidade sem y
-        Vector3 velwoy = new Vector3(rdb.velocity.x, 0, rdb.velocity.z);
+        Vector3 velwoy = new Vector3(rdb.linearVelocity.x, 0, rdb.linearVelocity.z);
         //drag manual
         rdb.AddForce(-velwoy * drag);
 
@@ -178,7 +178,7 @@ public class TrdControl : MonoBehaviour
             //loop
             yield return new WaitForFixedUpdate();
 
-            if (rdb.velocity.magnitude > 0.1f)
+            if (rdb.linearVelocity.magnitude > 0.1f)
             {
                 ChangeState(States.Walk);
             }
@@ -195,7 +195,7 @@ public class TrdControl : MonoBehaviour
         {
             //loop
             yield return new WaitForFixedUpdate();
-            if (rdb.velocity.magnitude < 0.1f)
+            if (rdb.linearVelocity.magnitude < 0.1f)
             {
                 ChangeState(States.Idle);
             }
