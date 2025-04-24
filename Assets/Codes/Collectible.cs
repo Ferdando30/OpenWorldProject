@@ -8,11 +8,15 @@ public class Collectible : MonoBehaviour
         
     //}
 
+    [SerializeField]
+    private ReturnPortal returnPortal;
+
     void OnTriggerEnter(Collider other)
     { 
         if (other.CompareTag("Player"))
         { 
             OnCollected?.Invoke();
+            returnPortal.Activate();
             Destroy(gameObject);
         }
     }

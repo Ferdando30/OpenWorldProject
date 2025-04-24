@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -23,5 +23,13 @@ public class ReturnPortal : MonoBehaviour
         Camera.main.SendMessage("FadeOut");
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene("MainGametest");
+    }
+
+    public void Activate()
+    { 
+        if(!gameObject.activeSelf)
+        { 
+            gameObject.SetActive(true);
+        }
     }
 }
