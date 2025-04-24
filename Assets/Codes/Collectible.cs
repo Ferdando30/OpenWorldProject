@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
-    public static event Action OnCollected;
-    void Update()
-    {
+    public static event System.Action OnCollected;
+    //void Update()
+    //{
         
-    }
+    //}
 
     void OnTriggerEnter(Collider other)
     { 
