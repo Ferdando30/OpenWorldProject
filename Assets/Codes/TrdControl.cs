@@ -104,7 +104,7 @@ public class TrdControl : MonoBehaviour
 
         //limite de velocidade
         //rdb.AddForce((move * forcemove)/ (vel*2+1));
-        rdb.velocity = new Vector3(move.x * forcemove, rdb.velocity.y, move.z * forcemove);
+        rdb.linearVelocity = new Vector3(move.x * forcemove, rdb.linearVelocity.y, move.z * forcemove);
         anim.SetFloat("Velocity", vel);
 
         //velocidade sem y
