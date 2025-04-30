@@ -20,6 +20,7 @@ public class TrdControl : MonoBehaviour
     bool grab = false;
     FixedJoint grabjoint;
     public GameObject projetil;
+    public float MagicImpulse = 10;
     public enum States
     {
         Walk,
@@ -37,22 +38,9 @@ public class TrdControl : MonoBehaviour
     {
         rdb= GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
-        /*
 
-        Joint[] joints;
-        joints = GetComponentsInChildren<Joint>();
-        foreach (Joint myjoint in joints)
-        {
-            Destroy(myjoint);
-        }
+        Cursor.lockState = CursorLockMode.Locked;
 
-        Rigidbody[] rdbs;
-        rdbs = GetComponentsInChildren<Rigidbody>();
-        for(int i=1;i<rdbs.Length;i++)
-        {
-            Destroy(rdbs[i]);
-        }
-        */
         rdb.isKinematic=false;
         if (SceneManager.GetActiveScene().name == "MainGame")
         {
@@ -61,7 +49,7 @@ public class TrdControl : MonoBehaviour
                 transform.position = CommomValues.ShrinePlayerPosition;
             }
         }
-        
+
         StartCoroutine(Idle());
     }
 
@@ -115,7 +103,8 @@ public class TrdControl : MonoBehaviour
         float vel = rdb.linearVelocity.magnitude;
 
         //limite de velocidade
-        rdb.AddForce((move * forcemove)/ (vel*2+1));
+        //rdb.AddForce((move * forcemove)/ (vel*2+1));
+        rdb.velocity = new Vector3(move.x * forcemove, rdb.velocity.y, move.z * forcemove);
         anim.SetFloat("Velocity", vel);
 
         //velocidade sem y
@@ -223,7 +212,7 @@ public class TrdControl : MonoBehaviour
         scream.Play();
         yield return new WaitForSeconds(0.7f);
         GameObject magic = Instantiate(projetil, transform.position + Vector3.up+transform.forward, transform.rotation);
-        magic.GetComponent<Rigidbody>().AddForce(transform.forward * 50, ForceMode.Impulse);
+        magic.GetComponent<Rigidbody>().AddForce(transform.forward * MagicImpulse, ForceMode.Impulse);
 
         yield return new WaitForSeconds(1);
        
