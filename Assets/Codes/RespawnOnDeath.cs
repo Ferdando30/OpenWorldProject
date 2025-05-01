@@ -3,14 +3,17 @@ using UnityEngine;
 public class RespawnOnDeath : MonoBehaviour
 {
     [SerializeField]
-    private respawnPoint respawnPoint;
+    private RespawnPoint respawnPoint;
+    
+    [SerializeField]
+    private TrdControl player;
 
     void OnTriggerEnter(Collider other)
     { 
         if (other.CompareTag("Player"))
         { 
-            other.transform.position = respawnPoint.transform.position;
-            other.transform.rotation = respawnPoint.transform.rotation;
+            player.transform.position = respawnPoint.transform.position;
+            player.transform.rotation = respawnPoint.transform.rotation;
         }
     }
 }
