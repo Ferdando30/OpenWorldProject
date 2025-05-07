@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 14407536}
   - component: {fileID: 14407535}
   - component: {fileID: 14407534}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 16650460}
   - component: {fileID: 16650459}
   - component: {fileID: 16650458}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 21481989}
   - component: {fileID: 21481988}
   - component: {fileID: 21481987}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -455,7 +455,7 @@ GameObject:
   - component: {fileID: 63310212}
   - component: {fileID: 63310211}
   - component: {fileID: 63310210}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 72824056}
   - component: {fileID: 72824055}
   - component: {fileID: 72824054}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -671,7 +671,7 @@ GameObject:
   - component: {fileID: 93028903}
   - component: {fileID: 93028902}
   - component: {fileID: 93028901}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -779,7 +779,7 @@ GameObject:
   - component: {fileID: 113441572}
   - component: {fileID: 113441571}
   - component: {fileID: 113441570}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 129019718}
   - component: {fileID: 129019717}
   - component: {fileID: 129019716}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -995,7 +995,7 @@ GameObject:
   - component: {fileID: 139046318}
   - component: {fileID: 139046317}
   - component: {fileID: 139046316}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,7 +1211,7 @@ GameObject:
   - component: {fileID: 206804457}
   - component: {fileID: 206804456}
   - component: {fileID: 206804455}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1319,7 +1319,7 @@ GameObject:
   - component: {fileID: 231215370}
   - component: {fileID: 231215369}
   - component: {fileID: 231215368}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1427,7 +1427,7 @@ GameObject:
   - component: {fileID: 245098907}
   - component: {fileID: 245098906}
   - component: {fileID: 245098905}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1535,7 +1535,7 @@ GameObject:
   - component: {fileID: 246403495}
   - component: {fileID: 246403494}
   - component: {fileID: 246403493}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1643,7 +1643,7 @@ GameObject:
   - component: {fileID: 276601474}
   - component: {fileID: 276601473}
   - component: {fileID: 276601472}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1751,7 +1751,7 @@ GameObject:
   - component: {fileID: 295142882}
   - component: {fileID: 295142881}
   - component: {fileID: 295142880}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1859,7 +1859,7 @@ GameObject:
   - component: {fileID: 296888726}
   - component: {fileID: 296888725}
   - component: {fileID: 296888724}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1967,7 +1967,7 @@ GameObject:
   - component: {fileID: 350994018}
   - component: {fileID: 350994017}
   - component: {fileID: 350994016}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2075,7 +2075,7 @@ GameObject:
   - component: {fileID: 357181928}
   - component: {fileID: 357181927}
   - component: {fileID: 357181926}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2183,7 +2183,7 @@ GameObject:
   - component: {fileID: 392078738}
   - component: {fileID: 392078737}
   - component: {fileID: 392078736}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2291,7 +2291,7 @@ GameObject:
   - component: {fileID: 424861980}
   - component: {fileID: 424861979}
   - component: {fileID: 424861978}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2615,7 +2615,7 @@ GameObject:
   - component: {fileID: 480079468}
   - component: {fileID: 480079467}
   - component: {fileID: 480079466}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2723,7 +2723,7 @@ GameObject:
   - component: {fileID: 491009338}
   - component: {fileID: 491009337}
   - component: {fileID: 491009336}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2831,7 +2831,7 @@ GameObject:
   - component: {fileID: 511727409}
   - component: {fileID: 511727408}
   - component: {fileID: 511727407}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2939,7 +2939,7 @@ GameObject:
   - component: {fileID: 521086822}
   - component: {fileID: 521086821}
   - component: {fileID: 521086820}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3049,6 +3049,7 @@ GameObject:
   - component: {fileID: 521515413}
   - component: {fileID: 521515412}
   - component: {fileID: 521515411}
+  - component: {fileID: 521515417}
   m_Layer: 0
   m_Name: FreeLook Camera
   m_TagString: Untagged
@@ -3070,7 +3071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScanRecursively: 1
   SuppressInputWhileBlending: 1
-  IgnoreTimeScale: 0
+  IgnoreTimeScale: 1
   m_ControllerManager:
     Controllers:
     - Name: Look Orbit X
@@ -3272,6 +3273,45 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &521515417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521515410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe43d662878a7c43bcd44d43c9e2094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 1025
+  IgnoreTag: 
+  TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  MinimumDistanceFromTarget: 0.3
+  AvoidObstacles:
+    Enabled: 1
+    DistanceLimit: 0
+    MinimumOcclusionTime: 0
+    CameraRadius: 0.4
+    UseFollowTarget:
+      Enabled: 0
+      YOffset: 0
+    Strategy: 0
+    MaximumEffort: 4
+    SmoothingTime: 0
+    Damping: 0.4
+    DampingWhenOccluded: 0.2
+  ShotQualityEvaluation:
+    Enabled: 0
+    OptimalDistance: 10
+    NearLimit: 5
+    FarLimit: 30
+    MaxQualityBoost: 0.2
 --- !u!1 &524967360
 GameObject:
   m_ObjectHideFlags: 0
@@ -3284,7 +3324,7 @@ GameObject:
   - component: {fileID: 524967363}
   - component: {fileID: 524967362}
   - component: {fileID: 524967361}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3392,7 +3432,7 @@ GameObject:
   - component: {fileID: 534061453}
   - component: {fileID: 534061452}
   - component: {fileID: 534061451}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3500,7 +3540,7 @@ GameObject:
   - component: {fileID: 538831760}
   - component: {fileID: 538831759}
   - component: {fileID: 538831758}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3716,7 +3756,7 @@ GameObject:
   - component: {fileID: 615012788}
   - component: {fileID: 615012787}
   - component: {fileID: 615012786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3824,7 +3864,7 @@ GameObject:
   - component: {fileID: 623527673}
   - component: {fileID: 623527672}
   - component: {fileID: 623527671}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4148,7 +4188,7 @@ GameObject:
   - component: {fileID: 655692139}
   - component: {fileID: 655692138}
   - component: {fileID: 655692137}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4256,7 +4296,7 @@ GameObject:
   - component: {fileID: 658419252}
   - component: {fileID: 658419251}
   - component: {fileID: 658419250}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4364,7 +4404,7 @@ GameObject:
   - component: {fileID: 687128173}
   - component: {fileID: 687128172}
   - component: {fileID: 687128171}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4593,7 +4633,7 @@ GameObject:
   - component: {fileID: 715419320}
   - component: {fileID: 715419319}
   - component: {fileID: 715419318}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4917,7 +4957,7 @@ GameObject:
   - component: {fileID: 779986203}
   - component: {fileID: 779986202}
   - component: {fileID: 779986201}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5025,7 +5065,7 @@ GameObject:
   - component: {fileID: 786324394}
   - component: {fileID: 786324393}
   - component: {fileID: 786324392}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5133,7 +5173,7 @@ GameObject:
   - component: {fileID: 839328295}
   - component: {fileID: 839328294}
   - component: {fileID: 839328293}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5327,7 +5367,7 @@ GameObject:
   - component: {fileID: 864716863}
   - component: {fileID: 864716862}
   - component: {fileID: 864716861}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5497,7 +5537,7 @@ GameObject:
   - component: {fileID: 901142809}
   - component: {fileID: 901142808}
   - component: {fileID: 901142807}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5929,7 +5969,7 @@ GameObject:
   - component: {fileID: 948480492}
   - component: {fileID: 948480491}
   - component: {fileID: 948480490}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6037,7 +6077,7 @@ GameObject:
   - component: {fileID: 982745935}
   - component: {fileID: 982745934}
   - component: {fileID: 982745933}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6145,7 +6185,7 @@ GameObject:
   - component: {fileID: 1030164940}
   - component: {fileID: 1030164939}
   - component: {fileID: 1030164938}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6253,7 +6293,7 @@ GameObject:
   - component: {fileID: 1037571893}
   - component: {fileID: 1037571892}
   - component: {fileID: 1037571891}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6361,7 +6401,7 @@ GameObject:
   - component: {fileID: 1041334505}
   - component: {fileID: 1041334504}
   - component: {fileID: 1041334503}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6469,7 +6509,7 @@ GameObject:
   - component: {fileID: 1050094656}
   - component: {fileID: 1050094655}
   - component: {fileID: 1050094654}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6838,7 +6878,7 @@ GameObject:
   - component: {fileID: 1095820019}
   - component: {fileID: 1095820018}
   - component: {fileID: 1095820017}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7007,7 +7047,7 @@ GameObject:
   - component: {fileID: 1111939908}
   - component: {fileID: 1111939907}
   - component: {fileID: 1111939906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7331,7 +7371,7 @@ GameObject:
   - component: {fileID: 1186186447}
   - component: {fileID: 1186186446}
   - component: {fileID: 1186186445}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7439,7 +7479,7 @@ GameObject:
   - component: {fileID: 1211528106}
   - component: {fileID: 1211528105}
   - component: {fileID: 1211528104}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7547,7 +7587,7 @@ GameObject:
   - component: {fileID: 1231052994}
   - component: {fileID: 1231052993}
   - component: {fileID: 1231052992}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7655,7 +7695,7 @@ GameObject:
   - component: {fileID: 1234880893}
   - component: {fileID: 1234880892}
   - component: {fileID: 1234880891}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7892,7 +7932,7 @@ GameObject:
   - component: {fileID: 1254561325}
   - component: {fileID: 1254561324}
   - component: {fileID: 1254561323}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8108,7 +8148,7 @@ GameObject:
   - component: {fileID: 1261151548}
   - component: {fileID: 1261151547}
   - component: {fileID: 1261151546}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8216,7 +8256,7 @@ GameObject:
   - component: {fileID: 1282213767}
   - component: {fileID: 1282213766}
   - component: {fileID: 1282213765}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8324,7 +8364,7 @@ GameObject:
   - component: {fileID: 1291478750}
   - component: {fileID: 1291478749}
   - component: {fileID: 1291478748}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8432,7 +8472,7 @@ GameObject:
   - component: {fileID: 1305943493}
   - component: {fileID: 1305943492}
   - component: {fileID: 1305943491}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8540,7 +8580,7 @@ GameObject:
   - component: {fileID: 1364208810}
   - component: {fileID: 1364208809}
   - component: {fileID: 1364208808}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8648,7 +8688,7 @@ GameObject:
   - component: {fileID: 1366565353}
   - component: {fileID: 1366565352}
   - component: {fileID: 1366565351}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8756,7 +8796,7 @@ GameObject:
   - component: {fileID: 1374983274}
   - component: {fileID: 1374983273}
   - component: {fileID: 1374983272}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8864,7 +8904,7 @@ GameObject:
   - component: {fileID: 1377427429}
   - component: {fileID: 1377427428}
   - component: {fileID: 1377427427}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9080,7 +9120,7 @@ GameObject:
   - component: {fileID: 1389456963}
   - component: {fileID: 1389456962}
   - component: {fileID: 1389456961}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9188,7 +9228,7 @@ GameObject:
   - component: {fileID: 1393002147}
   - component: {fileID: 1393002146}
   - component: {fileID: 1393002145}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9404,7 +9444,7 @@ GameObject:
   - component: {fileID: 1430257208}
   - component: {fileID: 1430257207}
   - component: {fileID: 1430257206}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9620,7 +9660,7 @@ GameObject:
   - component: {fileID: 1478144393}
   - component: {fileID: 1478144392}
   - component: {fileID: 1478144391}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9728,7 +9768,7 @@ GameObject:
   - component: {fileID: 1479752378}
   - component: {fileID: 1479752377}
   - component: {fileID: 1479752376}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9836,7 +9876,7 @@ GameObject:
   - component: {fileID: 1480451954}
   - component: {fileID: 1480451953}
   - component: {fileID: 1480451952}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9944,7 +9984,7 @@ GameObject:
   - component: {fileID: 1483410874}
   - component: {fileID: 1483410873}
   - component: {fileID: 1483410872}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10052,7 +10092,7 @@ GameObject:
   - component: {fileID: 1505014671}
   - component: {fileID: 1505014670}
   - component: {fileID: 1505014669}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10466,7 +10506,7 @@ GameObject:
   - component: {fileID: 1537729237}
   - component: {fileID: 1537729236}
   - component: {fileID: 1537729235}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10574,7 +10614,7 @@ GameObject:
   - component: {fileID: 1549190063}
   - component: {fileID: 1549190062}
   - component: {fileID: 1549190061}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10682,7 +10722,7 @@ GameObject:
   - component: {fileID: 1566340909}
   - component: {fileID: 1566340908}
   - component: {fileID: 1566340907}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10898,7 +10938,7 @@ GameObject:
   - component: {fileID: 1567661491}
   - component: {fileID: 1567661490}
   - component: {fileID: 1567661489}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11006,7 +11046,7 @@ GameObject:
   - component: {fileID: 1617516884}
   - component: {fileID: 1617516883}
   - component: {fileID: 1617516882}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11114,7 +11154,7 @@ GameObject:
   - component: {fileID: 1640687928}
   - component: {fileID: 1640687927}
   - component: {fileID: 1640687926}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11222,7 +11262,7 @@ GameObject:
   - component: {fileID: 1658099739}
   - component: {fileID: 1658099738}
   - component: {fileID: 1658099737}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11330,7 +11370,7 @@ GameObject:
   - component: {fileID: 1678851474}
   - component: {fileID: 1678851473}
   - component: {fileID: 1678851472}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11546,7 +11586,7 @@ GameObject:
   - component: {fileID: 1685987181}
   - component: {fileID: 1685987180}
   - component: {fileID: 1685987179}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11654,7 +11694,7 @@ GameObject:
   - component: {fileID: 1687027786}
   - component: {fileID: 1687027785}
   - component: {fileID: 1687027784}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11762,7 +11802,7 @@ GameObject:
   - component: {fileID: 1688432178}
   - component: {fileID: 1688432177}
   - component: {fileID: 1688432176}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12086,7 +12126,7 @@ GameObject:
   - component: {fileID: 1761822700}
   - component: {fileID: 1761822699}
   - component: {fileID: 1761822698}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12365,7 +12405,7 @@ GameObject:
   - component: {fileID: 1792359897}
   - component: {fileID: 1792359896}
   - component: {fileID: 1792359895}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12971,7 +13011,7 @@ GameObject:
   - component: {fileID: 1890154493}
   - component: {fileID: 1890154492}
   - component: {fileID: 1890154491}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13079,7 +13119,7 @@ GameObject:
   - component: {fileID: 1915402689}
   - component: {fileID: 1915402688}
   - component: {fileID: 1915402687}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13187,7 +13227,7 @@ GameObject:
   - component: {fileID: 1932021140}
   - component: {fileID: 1932021139}
   - component: {fileID: 1932021138}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: paredes (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13295,7 +13335,7 @@ GameObject:
   - component: {fileID: 1939143836}
   - component: {fileID: 1939143835}
   - component: {fileID: 1939143834}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13619,7 +13659,7 @@ GameObject:
   - component: {fileID: 2030423063}
   - component: {fileID: 2030423062}
   - component: {fileID: 2030423061}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13800,7 +13840,7 @@ GameObject:
   - component: {fileID: 2079332570}
   - component: {fileID: 2079332569}
   - component: {fileID: 2079332568}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
