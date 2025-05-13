@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 106
+  controlID: 50
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 600
     height: 933
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -919,9 +919,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 11.284547, y: 5.98207, z: -22.865833}
+    m_Target: {x: 667.5372, y: -84.24615, z: 807.8152}
     speed: 2
-    m_Value: {x: 11.284547, y: 5.98207, z: -22.865833}
+    m_Value: {x: 667.5372, y: -84.24615, z: 807.8152}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -967,13 +967,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.4220507, y: 0.06435025, z: -0.030016586, w: -0.90395665}
+    m_Target: {x: -0.28999814, y: 0.028168049, z: -0.008425106, w: -0.9567393}
     speed: 2
-    m_Value: {x: -0.42334133, y: 0.06429528, z: -0.030108524, w: -0.90318424}
+    m_Value: {x: -0.28995273, y: 0.028163638, z: -0.008423787, w: -0.95658946}
   m_Size:
-    m_Target: 15.594001
+    m_Target: 88.264015
     speed: 2
-    m_Value: 15.594001
+    m_Value: 88.264015
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1044,23 +1044,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 70dcffff
       m_LastClickedID: 0
-      m_ExpandedIDs: 72c6fffff8faffff
+      m_ExpandedIDs: 10d4ffff42d4ffff74d4ffffa6d4ffffacd9ffffded9ffff10daffffc0dafffff2daffff24dbffff56dbffff88dbffffbadbffffecdbffff1edcffff50dcffff82dcffffb4dcffffe6dcffff18ddffff4addffff7cddffffb4ddffffe6ddffff18deffff4adeffff7cdeffffaedeffffe0deffff12dfffff44dfffff76dfffffa8dfffffdadfffff0ce0ffff3ee0ffff70e0ffffa2e0fffff0e0ffff22e1ffff54e1ffff86e1ffffb8e1ffffeae1ffff1ce2ffff4ee2ffff80e2ffffb2e2ffffe4e2ffff16e3ffff48e3ffff7ae3fffface3ffffdee3ffff10e4ffff42e4ffff74e4ffffa6e4ffffd8e4ffff0ae5ffff3ce5ffff6ee5ffffa0e5ffffd2e5ffff04e6ffff36e6ffff04ecffff36ecffff68ecffff9aecffffccecfffffeecffff30edffff62edffff94edffffc6edfffff8edffff36eeffff68eeffff9aeeffffcceefffffeeeffff30efffff62efffff94efffff9af4ffffccf4fffffef4ffff30f5ffff62f5ffff38faffffa06d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: VilaPesca
+        m_OriginalName: VilaPesca
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 27840
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 8}
@@ -1119,7 +1119,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/NossosModelos
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1129,16 +1129,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/NossosModelos
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\RA00350487\Documents\GitHub\OpenWorldProject
+  m_LastProjectPath: C:\Users\ra00350487\Documents\GitHub\OpenWorldProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ca7b0000
-    m_LastClickedID: 31690
-    m_ExpandedIDs: 00000000ca7b000000ca9a3b
+    m_SelectedIDs: f67c0000
+    m_LastClickedID: 31990
+    m_ExpandedIDs: 00000000187c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1167,7 +1167,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca7b0000
+    m_ExpandedIDs: 00000000187c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1302,7 +1302,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 473
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
