@@ -3,13 +3,17 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
     public static event System.Action OnCollected;
-    //void Update()
-    //{
-        
-    //}
+    public float CompleteShrine;
+    
 
     [SerializeField]
     private ReturnPortal returnPortal;
+
+    [SerializeField]
+    private BossRoom bossRoom;
+
+    [SerializeField]
+    private GameInfo gameInfo;
 
     void OnTriggerEnter(Collider other)
     { 
@@ -17,7 +21,9 @@ public class Collectible : MonoBehaviour
         { 
             OnCollected?.Invoke();
             returnPortal.Activate();
-            Destroy(gameObject);
+            gameInfo.IncreaseCount();
+            bossRoom.OpenBoss();
+            gameObject.active = false;
         }
     }
 }
