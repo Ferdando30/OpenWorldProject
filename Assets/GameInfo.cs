@@ -6,6 +6,14 @@ public class GameInfo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("Game Info");
+
+
+        if (objs.Length > 1)
+        { 
+            Destroy(this.gameObject);
+        }   
+        
         DontDestroyOnLoad(this.gameObject);
     }
     

@@ -11,6 +11,10 @@ public class BossRoom : MonoBehaviour
     void Awake()
     {
         gameInfo = GameObject.FindWithTag("Game Info").GetComponent<GameInfo>();
+    }
+
+    void Start()
+    {
         OpenBoss();
     }
 
