@@ -8,9 +8,9 @@ public class BossRoom : MonoBehaviour
     [SerializeField]
     private GameInfo gameInfo;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        
+        gameInfo = GameObject.FindWithTag("Game Info").GetComponent<GameInfo>();
     }
 
     // Update is called once per frame

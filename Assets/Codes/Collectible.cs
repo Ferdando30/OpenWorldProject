@@ -15,6 +15,11 @@ public class Collectible : MonoBehaviour
     [SerializeField]
     private GameInfo gameInfo;
 
+    void Awake()
+    {
+        gameInfo = GameObject.FindWithTag("Game Info").GetComponent<GameInfo>();
+    }
+
     void OnTriggerEnter(Collider other)
     { 
         if (other.CompareTag("Player"))
