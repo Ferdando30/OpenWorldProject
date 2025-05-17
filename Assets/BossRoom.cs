@@ -25,7 +25,7 @@ public class BossRoom : MonoBehaviour
             portal.active = false;
         }
 
-        if (gameInfo.ShrinesCompleted >= 1)
+        if (gameInfo.ShrinesCompleted == 4)
         {
             print("foi krl");
             portal.active = true;
