@@ -11,12 +11,13 @@ public class BossRoom : MonoBehaviour
     void Awake()
     {
         gameInfo = GameObject.FindWithTag("Game Info").GetComponent<GameInfo>();
+        OpenBoss();
     }
 
     // Update is called once per frame
     void Update()
     {
-        OpenBoss();
+        
     }
     public void OpenBoss()
     {
