@@ -637,7 +637,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 130e644bbbdb4734b99ec5bf037d4bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Shrine: 
+  Shrine: Shrine 4
+  gameInfo: {fileID: 0}
 --- !u!1 &1068737660
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,7 +1271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 130e644bbbdb4734b99ec5bf037d4bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Shrine: 
+  Shrine: Shrine 4
+  gameInfo: {fileID: 0}
 --- !u!1 &1869618499
 GameObject:
   m_ObjectHideFlags: 0

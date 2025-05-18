@@ -13,6 +13,12 @@ public class GameInfo : MonoBehaviour
 
     [SerializeField]
     private RespawnPoint respawn1;
+    [SerializeField]
+    private RespawnPoint respawn2;
+    [SerializeField]
+    private RespawnPoint respawn3;
+    [SerializeField]
+    private RespawnPoint respawn4;
 
     public static GameInfo instance;
 
@@ -35,6 +41,9 @@ public class GameInfo : MonoBehaviour
         //print("respawn " + respawn1);
 
         respawn1 = GameObject.Find("Respawn Shrine 1").GetComponent<RespawnPoint>();
+        respawn2 = GameObject.Find("Respawn Shrine 2").GetComponent<RespawnPoint>();
+        respawn3 = GameObject.Find("Respawn Shrine 3").GetComponent<RespawnPoint>();
+        respawn4 = GameObject.Find("Respawn Shrine 4").GetComponent<RespawnPoint>();
     }
     
     void Start()
@@ -50,10 +59,28 @@ public class GameInfo : MonoBehaviour
     {
         print(": D");
         respawn1 = GameObject.Find("Respawn Shrine 1").GetComponent<RespawnPoint>();
+        respawn2 = GameObject.Find("Respawn Shrine 2").GetComponent<RespawnPoint>();
+        respawn3 = GameObject.Find("Respawn Shrine 3").GetComponent<RespawnPoint>();
+        respawn4 = GameObject.Find("Respawn Shrine 4").GetComponent<RespawnPoint>();
         if (LastShrineVisited == "Shrine 1")
         {
             player.transform.position = respawn1.transform.position;
             player.transform.rotation = respawn1.transform.rotation;
+        }
+        if (LastShrineVisited == "Shrine 2")
+        {
+            player.transform.position = respawn2.transform.position;
+            player.transform.rotation = respawn2.transform.rotation;
+        }
+        if (LastShrineVisited == "Shrine 3")
+        {
+            player.transform.position = respawn3.transform.position;
+            player.transform.rotation = respawn3.transform.rotation;
+        }
+        if (LastShrineVisited == "Shrine 4")
+        {
+            player.transform.position = respawn4.transform.position;
+            player.transform.rotation = respawn4.transform.rotation;
         }
     }
     public void IncreaseCount()
