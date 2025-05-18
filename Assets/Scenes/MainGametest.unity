@@ -2899,6 +2899,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 720092772}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &157679642 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4568980975116380812, guid: 251eb8a247c6ff6438561641e12e3b89,
+    type: 3}
+  m_PrefabInstance: {fileID: 720092772}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157679634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877c5a3ecfff48241a7a6440334e6f7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &164245040 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 0bfab49517dcaba468a1795a9ab3b18c,
@@ -9210,7 +9222,7 @@ PrefabInstance:
     - target: {fileID: 4568980974282011942, guid: 251eb8a247c6ff6438561641e12e3b89,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 72
+      value: 71.64
       objectReference: {fileID: 0}
     - target: {fileID: 4568980974282011942, guid: 251eb8a247c6ff6438561641e12e3b89,
         type: 3}
@@ -9220,7 +9232,7 @@ PrefabInstance:
     - target: {fileID: 4568980974282011942, guid: 251eb8a247c6ff6438561641e12e3b89,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 59.91
+      value: 60.64
       objectReference: {fileID: 0}
     - target: {fileID: 4568980974282011942, guid: 251eb8a247c6ff6438561641e12e3b89,
         type: 3}
@@ -16046,6 +16058,50 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8678823145569952518, guid: 0bfab49517dcaba468a1795a9ab3b18c, type: 3}
+--- !u!1 &1353533679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1353533680}
+  - component: {fileID: 1353533681}
+  m_Layer: 0
+  m_Name: Respawn Shrine 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1353533680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353533679}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 77.504, y: 4.3, z: 68.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1353533681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353533679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b76fb6abda71946b4c6467a070175a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1354325185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16492,7 +16548,7 @@ PrefabInstance:
     - target: {fileID: 5226078391448961788, guid: cdfb00d517c0bcc4c92e63fc797da42c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 72
+      value: 71.64
       objectReference: {fileID: 0}
     - target: {fileID: 5226078391448961788, guid: cdfb00d517c0bcc4c92e63fc797da42c,
         type: 3}
@@ -16502,7 +16558,7 @@ PrefabInstance:
     - target: {fileID: 5226078391448961788, guid: cdfb00d517c0bcc4c92e63fc797da42c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 55.91
+      value: 56.64
       objectReference: {fileID: 0}
     - target: {fileID: 5226078391448961788, guid: cdfb00d517c0bcc4c92e63fc797da42c,
         type: 3}
@@ -20565,7 +20621,7 @@ Transform:
   m_GameObject: {fileID: 1825723728}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2534013, y: -0.0000000033194263, z: 0.00000000379884, w: 0.9673613}
-  m_LocalPosition: {x: 72, y: 6.55, z: 55.91}
+  m_LocalPosition: {x: 71.64, y: 6.55, z: 56.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23631,6 +23687,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
         type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 157679642}
+    - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
+        type: 3}
+      propertyPath: respawn1
+      value: 
+      objectReference: {fileID: 1353533681}
+    - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
+        type: 3}
       propertyPath: Shrine1Completed
       value: 0
       objectReference: {fileID: 0}
@@ -23653,6 +23719,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ShrinesCompleted
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
+        type: 3}
+      propertyPath: LastShrineVisited
+      value: None
       objectReference: {fileID: 0}
     - target: {fileID: 8625278991169322656, guid: 77327a3240e38e645a0c7fda2d0d277d,
         type: 3}
@@ -23809,3 +23880,4 @@ SceneRoots:
   - {fileID: 1408800902}
   - {fileID: 5593516828263808416}
   - {fileID: 875034387}
+  - {fileID: 1353533680}

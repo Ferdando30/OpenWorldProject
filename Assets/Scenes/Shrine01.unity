@@ -773,6 +773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 130e644bbbdb4734b99ec5bf037d4bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Shrine: 
 --- !u!1 &730214842
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,6 +2219,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096640794227972736, guid: e0c32c7e531a138419bffbb0a0e64e6c,
+        type: 3}
+      propertyPath: Shrine
+      value: Shrine 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

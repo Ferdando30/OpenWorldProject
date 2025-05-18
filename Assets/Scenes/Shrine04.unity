@@ -637,6 +637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 130e644bbbdb4734b99ec5bf037d4bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Shrine: 
 --- !u!1 &1068737660
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,6 +1270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 130e644bbbdb4734b99ec5bf037d4bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Shrine: 
 --- !u!1 &1869618499
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,6 +1742,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 276439127481994716, guid: 5cda27f24653e104cbde6e97a28ba677,
+        type: 3}
+      propertyPath: Shrine
+      value: Shrine 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6770957985146724859, guid: 5cda27f24653e104cbde6e97a28ba677,
         type: 3}
       propertyPath: m_LocalPosition.x

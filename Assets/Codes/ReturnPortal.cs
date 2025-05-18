@@ -5,7 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ReturnPortal : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public string Shrine;
+
+    [SerializeField]
+    private GameInfo gameInfo;
+    void Awake()
+    {
+        gameInfo = GameObject.FindWithTag("Game Info").GetComponent<GameInfo>();
+    }
+    
     void Start()
     {
         
@@ -21,6 +29,7 @@ public class ReturnPortal : MonoBehaviour
     IEnumerator MyLoadScene()
     {
         Camera.main.SendMessage("FadeOut");
+        gameInfo.LastShrineVisited = Shrine;
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene("MainGametest");
     }
