@@ -25,12 +25,12 @@ public class BossRoom : MonoBehaviour
     }
     public void OpenBoss()
     {
-        if (gameInfo.ShrinesCompleted == 0)
+        if (gameInfo.Shrine1Completed == false || gameInfo.Shrine2Completed == false || gameInfo.Shrine3Completed == false || gameInfo.Shrine4Completed == false)
         {
             portal.active = false;
         }
 
-        if (gameInfo.ShrinesCompleted == 4)
+        if (gameInfo.Shrine1Completed == true && gameInfo.Shrine2Completed == true && gameInfo.Shrine3Completed == true && gameInfo.Shrine4Completed == true)
         {
             print("foi krl");
             portal.active = true;

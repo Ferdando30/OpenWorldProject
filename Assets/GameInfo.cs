@@ -3,7 +3,11 @@ using UnityEngine;
 public class GameInfo : MonoBehaviour
 {
     public int ShrinesCompleted = 0;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public bool Shrine1Completed = false;
+    public bool Shrine2Completed = false;
+    public bool Shrine3Completed = false;
+    public bool Shrine4Completed = false;
+    
     void Awake()
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("Game Info");
@@ -22,7 +26,6 @@ public class GameInfo : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         

@@ -6449,7 +6449,7 @@ PrefabInstance:
     - target: {fileID: 5397916410467929469, guid: 4364cd72a4477554886398dac7aa9f4b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8479298197007296695, guid: 4364cd72a4477554886398dac7aa9f4b,
         type: 3}
@@ -23628,6 +23628,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Game Info
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
+        type: 3}
+      propertyPath: Shrine1Completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
+        type: 3}
+      propertyPath: Shrine2Completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
+        type: 3}
+      propertyPath: Shrine3Completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
+        type: 3}
+      propertyPath: Shrine4Completed
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
         type: 3}
