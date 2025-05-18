@@ -36,7 +36,8 @@ public class TrdControl : MonoBehaviour
 
     void Start()
     {
-        rdb= GetComponent<Rigidbody>();
+        GameInfo.instance.player = this;
+        rdb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
 
         Cursor.lockState = CursorLockMode.Locked;

@@ -9227,7 +9227,7 @@ PrefabInstance:
     - target: {fileID: 4568980974282011942, guid: 251eb8a247c6ff6438561641e12e3b89,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.3
+      value: 3.66
       objectReference: {fileID: 0}
     - target: {fileID: 4568980974282011942, guid: 251eb8a247c6ff6438561641e12e3b89,
         type: 3}
@@ -16102,6 +16102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40b76fb6abda71946b4c6467a070175a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameInfo: {fileID: 0}
 --- !u!1001 &1354325185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16553,7 +16554,7 @@ PrefabInstance:
     - target: {fileID: 5226078391448961788, guid: cdfb00d517c0bcc4c92e63fc797da42c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.55
+      value: 5.91
       objectReference: {fileID: 0}
     - target: {fileID: 5226078391448961788, guid: cdfb00d517c0bcc4c92e63fc797da42c,
         type: 3}
@@ -20621,7 +20622,7 @@ Transform:
   m_GameObject: {fileID: 1825723728}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2534013, y: -0.0000000033194263, z: 0.00000000379884, w: 0.9673613}
-  m_LocalPosition: {x: 71.64, y: 6.55, z: 56.64}
+  m_LocalPosition: {x: 71.64, y: 5.91, z: 56.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23690,11 +23691,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 157679642}
-    - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
-        type: 3}
-      propertyPath: respawn1
-      value: 
-      objectReference: {fileID: 1353533681}
     - target: {fileID: 7225444700709758051, guid: 77327a3240e38e645a0c7fda2d0d277d,
         type: 3}
       propertyPath: Shrine1Completed
