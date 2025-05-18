@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameInfo : MonoBehaviour
 {
@@ -35,10 +36,6 @@ public class GameInfo : MonoBehaviour
         }
 
         DontDestroyOnLoad(this.gameObject);
-        //GameObject respawn1_obj = GameObject.Find("Respawn Shrine 1");
-        //print("obj " + respawn1_obj);
-        //respawn1 = respawn1_obj.GetComponent<RespawnPoint>();
-        //print("respawn " + respawn1);
 
         respawn1 = GameObject.Find("Respawn Shrine 1").GetComponent<RespawnPoint>();
         respawn2 = GameObject.Find("Respawn Shrine 2").GetComponent<RespawnPoint>();
@@ -57,30 +54,32 @@ public class GameInfo : MonoBehaviour
     }
     public void SetPlayerPosition()
     {
-        print(": D");
         respawn1 = GameObject.Find("Respawn Shrine 1").GetComponent<RespawnPoint>();
         respawn2 = GameObject.Find("Respawn Shrine 2").GetComponent<RespawnPoint>();
         respawn3 = GameObject.Find("Respawn Shrine 3").GetComponent<RespawnPoint>();
         respawn4 = GameObject.Find("Respawn Shrine 4").GetComponent<RespawnPoint>();
-        if (LastShrineVisited == "Shrine 1")
+        if (SceneManager.GetActiveScene().name == "MainGametest")
         {
-            player.transform.position = respawn1.transform.position;
-            player.transform.rotation = respawn1.transform.rotation;
-        }
-        if (LastShrineVisited == "Shrine 2")
-        {
-            player.transform.position = respawn2.transform.position;
-            player.transform.rotation = respawn2.transform.rotation;
-        }
-        if (LastShrineVisited == "Shrine 3")
-        {
-            player.transform.position = respawn3.transform.position;
-            player.transform.rotation = respawn3.transform.rotation;
-        }
-        if (LastShrineVisited == "Shrine 4")
-        {
-            player.transform.position = respawn4.transform.position;
-            player.transform.rotation = respawn4.transform.rotation;
+            if (LastShrineVisited == "Shrine 1")
+            {
+                player.rdb.position = respawn1.transform.position;
+                player.transform.rotation = respawn1.transform.rotation;
+            }
+            if (LastShrineVisited == "Shrine 2")
+            {
+                player.rdb.position = respawn2.transform.position;
+                player.transform.rotation = respawn2.transform.rotation;
+            }
+            if (LastShrineVisited == "Shrine 3")
+            {
+                player.rdb.position = respawn3.transform.position;
+                player.transform.rotation = respawn3.transform.rotation;
+            }
+            if (LastShrineVisited == "Shrine 4")
+            {
+                player.rdb.position = respawn4.transform.position;
+                player.transform.rotation = respawn4.transform.rotation;
+            }
         }
     }
     public void IncreaseCount()

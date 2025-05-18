@@ -11,10 +11,7 @@ public class RespawnPoint : MonoBehaviour
     }
     void Start()
     {
-        if (SceneManager.GetActiveScene().name == "MainGametest")
-        {
-            Invoke("SetPlayerPosition", 0.1f);
-        }
+        Invoke("SetPlayerPosition", 0.1f);
     }
     void SetPlayerPosition()
     {

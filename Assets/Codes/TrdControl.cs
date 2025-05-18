@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class TrdControl : MonoBehaviour
 {
     // Start is called before the first frame update
-    Rigidbody rdb;
+    public Rigidbody rdb;
     Vector3 move, rot;
     Animator anim;
     public float forcemove=1000;
