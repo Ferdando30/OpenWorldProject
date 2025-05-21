@@ -20,6 +20,15 @@ public class Shrine4Collectible : MonoBehaviour
         gameInfo = GameObject.FindWithTag("Game Info").GetComponent<GameInfo>();
     }
 
+    void Start()
+    {
+        if (gameInfo.Shrine4Completed == true)
+        {
+            returnPortal.gameObject.SetActive(true);
+            gameObject.SetActive(false);
+        }
+    }
+
     void OnTriggerEnter(Collider other)
     { 
         if (other.CompareTag("Player"))
