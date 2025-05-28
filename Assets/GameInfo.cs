@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class GameInfo : MonoBehaviour
 {
-    public int ShrinesCompleted = 0;
     public bool Shrine1Completed = false;
     public bool Shrine2Completed = false;
     public bool Shrine3Completed = false;
@@ -84,6 +83,6 @@ public class GameInfo : MonoBehaviour
     }
     public void IncreaseCount()
     {
-        ShrinesCompleted++;
+        return;
     }
 }
