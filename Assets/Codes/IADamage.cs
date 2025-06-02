@@ -7,10 +7,13 @@ public class IADamage : MonoBehaviour
     public int lives = 10;
     public IAStarFPS iastar;
     public int EnemyOnArea;
+    
     // Start is called before the first frame update
     void Start()
     {
         
+
+       
     }
 
     // Update is called once per frame
@@ -19,8 +22,8 @@ public class IADamage : MonoBehaviour
         if (lives < 0)
         {
             iastar.Dead();
-            Destroy(gameObject,4);
-            EnemyOnArea = EnemyOnArea - 1;
+            Destroy(gameObject, 4);
+            
         }
 
     }
@@ -38,4 +41,5 @@ public class IADamage : MonoBehaviour
     {
         lives =-1;
     }
+
 }
