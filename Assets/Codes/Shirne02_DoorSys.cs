@@ -15,7 +15,7 @@ public class Shirne02_DoorSys : MonoBehaviour
     void Start()
     {
         door.SetActive(true);
-        IADamageScript.EnemyOnArea = 1;
+        IADamageScript.EnemyOnArea = 2;
     }
 
     // Update is called once per frame
