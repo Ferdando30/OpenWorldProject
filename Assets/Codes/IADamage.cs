@@ -6,6 +6,7 @@ public class IADamage : MonoBehaviour
 {
     public int lives = 10;
     public IAStarFPS iastar;
+    public int EnemyOnArea;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class IADamage : MonoBehaviour
         {
             iastar.Dead();
             Destroy(gameObject,4);
+            EnemyOnArea = EnemyOnArea - 1;
         }
 
     }
