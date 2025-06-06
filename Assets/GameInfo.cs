@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameInfo : MonoBehaviour
 {
+    // Define variaveis pra checar se cada shrine já foi completa ou nao.
     public bool Shrine1Completed = false;
     public bool Shrine2Completed = false;
     public bool Shrine3Completed = false;
@@ -22,6 +23,7 @@ public class GameInfo : MonoBehaviour
 
     public static GameInfo instance;
 
+    //Checa para ver se so existe um gameInfo para nao duplicar e define o local de respawn quando entra na cena
     void Awake()
     {
         if (instance == null)
@@ -52,6 +54,7 @@ public class GameInfo : MonoBehaviour
         
     }
     public void SetPlayerPosition()
+    //Teleporta jogador pra perto da shrine certa quando ele sai da shrine
     {
         respawn1 = GameObject.Find("Respawn Shrine 1").GetComponent<RespawnPoint>();
         respawn2 = GameObject.Find("Respawn Shrine 2").GetComponent<RespawnPoint>();

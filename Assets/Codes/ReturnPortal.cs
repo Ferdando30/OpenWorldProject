@@ -9,6 +9,7 @@ public class ReturnPortal : MonoBehaviour
 
     [SerializeField]
     private GameInfo gameInfo;
+    //Define gameInfo quando a cena carrega.
     void Awake()
     {
         gameInfo = GameObject.FindWithTag("Game Info").GetComponent<GameInfo>();
@@ -19,6 +20,7 @@ public class ReturnPortal : MonoBehaviour
         
     }
 
+    //Checa se o player entrou no portal.
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -26,6 +28,7 @@ public class ReturnPortal : MonoBehaviour
             StartCoroutine(MyLoadScene());
         }
     }
+    //Define a ultima shrine que o jogador entrou no gameInfo como si mesma e carrega a main scene de novo.
     IEnumerator MyLoadScene()
     {
         Camera.main.SendMessage("FadeOut");
@@ -34,10 +37,11 @@ public class ReturnPortal : MonoBehaviour
         SceneManager.LoadScene("MainGametest");
     }
 
+    //Faz o gameObject ficar ativo depois de coletar o coletavel associado.
     public void Activate()
-    { 
-        if(!gameObject.activeSelf)
-        { 
+    {
+        if (!gameObject.activeSelf)
+        {
             gameObject.SetActive(true);
         }
     }
