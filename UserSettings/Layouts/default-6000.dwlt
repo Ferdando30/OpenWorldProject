@@ -410,9 +410,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 550
-      height: 453
+      height: 449
     m_Scale: {x: 0.28645834, y: 0.28645834}
-    m_Translation: {x: 274.99997, y: 226.5}
+    m_Translation: {x: 274.99997, y: 224.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -420,12 +420,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -959.9999
-      y: -790.69086
+      y: -783.70905
       width: 1919.9999
-      height: 1581.3817
+      height: 1567.4181
     m_MinimalGUI: 1
   m_defaultScale: 0.28645834
-  m_LastWindowPixelSize: {x: 550, y: 474}
+  m_LastWindowPixelSize: {x: 550, y: 470}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -970,7 +970,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 896.3251, y: 941.7221, z: -1835.9512}
+    m_Target: {x: 155.46326, y: 230.90985, z: 430.04416}
     speed: 2
     m_Value: {x: 896.3251, y: 941.7221, z: -1835.9512}
   m_RenderMode: 0
@@ -1018,11 +1018,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.12451062, y: -0.015998537, z: 0.001970064, w: 0.99238896}
+    m_Target: {x: -0.16877897, y: -0.7479794, z: 0.2089509, w: -0.6077071}
     speed: 2
     m_Value: {x: -0.12451062, y: 0.015998537, z: -0.001970064, w: -0.99238896}
   m_Size:
-    m_Target: 81.394104
+    m_Target: 0.8660254
     speed: 2
     m_Value: 81.394104
   m_Ortho:
@@ -1189,7 +1189,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 9}
     m_SelectedIDs: 40870000
     m_LastClickedID: 34624
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000004c870000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1218,7 +1218,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000004c870000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
