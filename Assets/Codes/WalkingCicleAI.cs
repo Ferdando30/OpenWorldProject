@@ -25,12 +25,14 @@ public class WalkingCicleAI : MonoBehaviour
 
             if (transform.position == Points[pointsIndex].transform.position)
             {
+                transform.rotation = Quaternion.Euler(0, -180, 0);
                 pointsIndex += 1;
             }
 
             if (pointsIndex == Points.Length)
             {
                 pointsIndex = 0;
+                transform.rotation = Quaternion.Euler(0,0,0);
             }
 
         }

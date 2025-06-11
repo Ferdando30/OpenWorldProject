@@ -21,13 +21,15 @@ public class NpcDialogo : MonoBehaviour
     public Button Proximo01;
     public Button Proximo02;
     public Button Proximo03;
+    private Animator WalkingAnimator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       //definindo a velocidade do walking cicle e setando a UI da caixa de dialogo para ficar invisivel 
-        
-        WalkingCicleAIScript.moveSpeed = 5;
+        //definindo a velocidade do walking cicle e setando a UI da caixa de dialogo para ficar invisivel 
+
+        WalkingAnimator = GetComponent<Animator>();
+        WalkingCicleAIScript.moveSpeed = 3;
         BGImage.SetActive(false);
         NpcName.enabled = false;
         NpcLine1.enabled = false;
@@ -51,7 +53,7 @@ public class NpcDialogo : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Escape))
         {
-            WalkingCicleAIScript.moveSpeed = 5;
+            WalkingCicleAIScript.moveSpeed = 3;
             BGImage.SetActive(false);
             NpcName.enabled = false;
             NpcLine1.enabled = false;
@@ -66,6 +68,15 @@ public class NpcDialogo : MonoBehaviour
             Proximo01.gameObject.SetActive(false);
             Proximo02.gameObject.SetActive(false);
             Proximo03.gameObject.SetActive(false);
+        }
+
+        if(WalkingCicleAIScript.moveSpeed == 3)
+        {
+            WalkingAnimator.SetFloat("Speed", 1);
+        }
+        if (WalkingCicleAIScript.moveSpeed == 0)
+        {
+            WalkingAnimator.SetFloat("Speed", 0);
         }
     }
      void OnTriggerStay (Collider hit)
