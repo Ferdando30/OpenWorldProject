@@ -7,6 +7,8 @@ public class WalkingCicleAI : MonoBehaviour
 
     [SerializeField] Transform[] Points;
     [SerializeField] public float moveSpeed;
+    public float RotateStart;
+    public float RotateEnd;
 
     private int pointsIndex;
 
@@ -25,14 +27,14 @@ public class WalkingCicleAI : MonoBehaviour
 
             if (transform.position == Points[pointsIndex].transform.position)
             {
-                transform.rotation = Quaternion.Euler(0, -180, 0);
+                transform.rotation = Quaternion.Euler(0, RotateStart, 0);
                 pointsIndex += 1;
             }
 
             if (pointsIndex == Points.Length)
             {
                 pointsIndex = 0;
-                transform.rotation = Quaternion.Euler(0,0,0);
+                transform.rotation = Quaternion.Euler(0, RotateEnd, 0);
             }
 
         }
