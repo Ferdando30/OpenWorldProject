@@ -8,6 +8,7 @@ TagManager:
   - Push
   - Game Info
   - Enemy
+  - Luz
   layers:
   - Default
   - TransparentFX
