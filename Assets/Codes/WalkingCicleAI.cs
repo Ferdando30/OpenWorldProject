@@ -12,6 +12,8 @@ public class WalkingCicleAI : MonoBehaviour
 
     private int pointsIndex;
 
+    public bool VilaPesca;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,6 +31,14 @@ public class WalkingCicleAI : MonoBehaviour
             {
                 transform.rotation = Quaternion.Euler(0, RotateStart, 0);
                 pointsIndex += 1;
+
+                if(VilaPesca == true)
+                {
+                    if (pointsIndex == 5 || pointsIndex == 6 || pointsIndex == 7 || pointsIndex == 8 || pointsIndex == 9)
+                    {
+                        transform.rotation = Quaternion.Euler(0, RotateEnd, 0);
+                    }
+                }
             }
 
             if (pointsIndex == Points.Length)
