@@ -7,8 +7,8 @@ public class CaracolColetavel : MonoBehaviour
 {
     public TextMeshProUGUI UI;
     public TextMeshProUGUI text;
-   
     
+
     public static int Caracois;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -33,6 +33,7 @@ public class CaracolColetavel : MonoBehaviour
             UI.enabled = true;
             if (Input.GetKey(KeyCode.E))
             {
+               
                 Caracois = Caracois + 1;
                 Destroy(gameObject);
                 UI.enabled = false;

@@ -137,7 +137,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UI: {fileID: 0}
   text: {fileID: 0}
-  Caracois: 0
 --- !u!65 &-2125705348484092314
 BoxCollider:
   m_ObjectHideFlags: 0

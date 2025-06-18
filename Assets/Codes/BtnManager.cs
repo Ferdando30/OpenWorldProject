@@ -5,6 +5,7 @@ public class BtnManager : MonoBehaviour
 {
   public void BtnStart()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainGametest");
     }
 
@@ -20,12 +21,6 @@ public class BtnManager : MonoBehaviour
 
     public void BackToMenu()
     {
-
+        SceneManager.LoadScene("StartScreen");
     }
-
-    public void Resume()
-    {
-
-    }
-
 }
