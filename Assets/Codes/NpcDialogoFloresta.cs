@@ -49,7 +49,7 @@ public class NpcDialogoFloresta : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Return))
         {
             WalkingCicleAIScript.moveSpeed = 3;
             BGImage.SetActive(false);

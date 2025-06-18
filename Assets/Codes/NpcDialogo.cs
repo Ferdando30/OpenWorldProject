@@ -51,7 +51,7 @@ public class NpcDialogo : MonoBehaviour
     {
         //quando a tecla ESC for apertada o NPC volta a andar e a caixa de dialogo fecha
 
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Return))
         {
             WalkingCicleAIScript.moveSpeed = 3;
             BGImage.SetActive(false);

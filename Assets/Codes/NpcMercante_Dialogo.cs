@@ -32,7 +32,7 @@ public class NpcMercante_Dialogo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Return))
         {
             BGImage.SetActive(false);
             NpcName.enabled = false;

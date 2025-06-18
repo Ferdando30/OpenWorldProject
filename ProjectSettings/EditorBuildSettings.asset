@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: b6ceb191806dbd341b3381834d5f6409
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 2d52019420d27cd41bbfdd20a6ad6de7
   - enabled: 1
@@ -32,5 +35,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BossRoom.unity
     guid: ce5e11bcda0b80648bd89a2ff793ea43
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 288bf0c1c324996478460d5b3a3459e8
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
