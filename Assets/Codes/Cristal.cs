@@ -3,38 +3,35 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections;
 
-public class CaracolColetavel : MonoBehaviour
+public class Cristal : MonoBehaviour
 {
+    public bool CristalColetado;
+    public GameObject outroCristal;
     public TextMeshProUGUI UI;
-    public TextMeshProUGUI text;
-   
-    
-    public static int Caracois;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        CristalColetado = false;
+        outroCristal.SetActive(false);
         UI.enabled = false;
-       // Caracois = 0;
-        
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        text.text = Caracois.ToString();
+        
     }
 
     void OnTriggerStay(Collider hit)
     {
-        if(hit.tag == "Player")
+        if (hit.tag == "Player")
         {
             UI.enabled = true;
             if (Input.GetKey(KeyCode.E))
             {
-                Caracois = Caracois + 1;
-                Destroy(gameObject);
+                CristalColetado = true;
+                transform.position = new Vector3(0, -5, 0);
                 UI.enabled = false;
             }
         }
@@ -42,10 +39,10 @@ public class CaracolColetavel : MonoBehaviour
 
     void OnTriggerExit(Collider hit)
     {
-        if(hit.tag == "Player")
+        if (hit.tag == "Player")
         {
             UI.enabled = false;
-            
+
         }
     }
 }
