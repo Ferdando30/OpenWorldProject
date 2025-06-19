@@ -20,6 +20,8 @@ public class GameInfo : MonoBehaviour
     private RespawnPoint respawn3;
     [SerializeField]
     private RespawnPoint respawn4;
+    [SerializeField]
+    private RespawnPoint respawn5;
 
     public static GameInfo instance;
 
@@ -42,6 +44,7 @@ public class GameInfo : MonoBehaviour
         respawn2 = GameObject.Find("Respawn Shrine 2").GetComponent<RespawnPoint>();
         respawn3 = GameObject.Find("Respawn Shrine 3").GetComponent<RespawnPoint>();
         respawn4 = GameObject.Find("Respawn Shrine 4").GetComponent<RespawnPoint>();
+        respawn5 = GameObject.Find("Respawn Shrine 5").GetComponent<RespawnPoint>();
     }
     
     void Start()
@@ -60,6 +63,7 @@ public class GameInfo : MonoBehaviour
         respawn2 = GameObject.Find("Respawn Shrine 2").GetComponent<RespawnPoint>();
         respawn3 = GameObject.Find("Respawn Shrine 3").GetComponent<RespawnPoint>();
         respawn4 = GameObject.Find("Respawn Shrine 4").GetComponent<RespawnPoint>();
+        respawn5 = GameObject.Find("Respawn Shrine 5").GetComponent<RespawnPoint>();
         if (SceneManager.GetActiveScene().name == "MainGametest")
         {
             if (LastShrineVisited == "Shrine 1")
@@ -81,6 +85,11 @@ public class GameInfo : MonoBehaviour
             {
                 player.rdb.position = respawn4.transform.position;
                 player.transform.rotation = respawn4.transform.rotation;
+            }
+            if (LastShrineVisited == "Boss Room")
+            {
+                player.rdb.position = respawn5.transform.position;
+                player.transform.rotation = respawn5.transform.rotation;
             }
         }
     }
