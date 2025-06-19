@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class BossMovement : MonoBehaviour
 {
-    [SerializeField]
+     [SerializeField]
     List<Transform> waypoint;
 
     [SerializeField]
