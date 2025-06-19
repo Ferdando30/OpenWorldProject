@@ -54,7 +54,6 @@ public class Character : MonoBehaviour
             StartCoroutine(MyLoadScene());
         }
     }
-    //Define a ultima shrine que o jogador entrou no gameInfo como si mesma e carrega a main scene de novo.
     IEnumerator MyLoadScene()
     {
         Camera.main.SendMessage("FadeOut");
