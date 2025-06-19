@@ -12,7 +12,7 @@ public class Path : MonoBehaviour
     public PathType pathType = PathType.Loop;
 
     public int direction = 1;
-    int index;
+    public int index;
 
     public Vector3 GetCurrentWaypoint()
     {
@@ -36,6 +36,14 @@ public class Path : MonoBehaviour
         if (pathType == PathType.Loop)
         {
             index %= waypoints.Length;
+            if (index <= 0)
+            {
+                index = waypoints.Length;
+            }
+            else if (index >= waypoints.Length)
+            {
+                index = 0;
+            }
         }
         else if (pathType == PathType.ReverseWhenComplete)
         {

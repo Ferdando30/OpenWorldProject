@@ -12,7 +12,7 @@ public class Character : MonoBehaviour
     private GameInfo gameInfo;
 
     [SerializeField]
-    float waitTimeOnWaypoint = 1f;
+    public float waitTimeOnWaypoint = 1f;
 
     [SerializeField]
     Path path;

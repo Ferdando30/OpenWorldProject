@@ -600,6 +600,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e6f99990e17e246869d119751ae434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  path: {fileID: 1945711764}
+  character: {fileID: 1945711765}
   wall: {fileID: 1242849307}
   hp: 3
 --- !u!65 &210270858
@@ -4476,7 +4478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1906508016798784, guid: 00a1229f10e9c6149ac5df04dcaff904, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4566927031494226, guid: 00a1229f10e9c6149ac5df04dcaff904, type: 3}
       propertyPath: m_LocalScale.x
@@ -7144,6 +7146,7 @@ MonoBehaviour:
   - {fileID: 1812226239}
   pathType: 0
   direction: 1
+  index: 0
 --- !u!114 &1945711765
 MonoBehaviour:
   m_ObjectHideFlags: 0
