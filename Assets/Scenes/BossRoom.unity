@@ -582,7 +582,7 @@ Transform:
   m_GameObject: {fileID: 210270855}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -0.49}
+  m_LocalPosition: {x: -0, y: 0, z: -0.353}
   m_LocalScale: {x: 0.2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -623,7 +623,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.5, y: 2, z: 1.57}
+  m_Size: {x: 1.7307693, y: 0.7692308, z: 0.60384613}
   m_Center: {x: 0, y: 0, z: 0.00000023841858}
 --- !u!23 &210270859
 MeshRenderer:
@@ -632,7 +632,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210270855}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -697,7 +697,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5, y: 2, z: 1.57}
+  m_Size: {x: 1.9230769, y: 0.7692308, z: 0.60384613}
   m_Center: {x: 0, y: 0, z: 0.00000023841858}
 --- !u!1 &241602029 stripped
 GameObject:
@@ -8221,8 +8221,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.1
-  m_Height: 2.45
+  m_Radius: 0.42307693
+  m_Height: 0.9423077
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1945711761
@@ -8248,7 +8248,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 78833295bea0acf41a42e3d98c25b7e9, type: 2}
+  - {fileID: 2100000, guid: f6730b960ba6c914e9141395fc93249f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8277,7 +8277,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945711759}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -2014698503841005554, guid: 605d0caffe3b2fe489bc37e772cb7496, type: 3}
 --- !u!4 &1945711763
 Transform:
   m_ObjectHideFlags: 0
@@ -8287,8 +8287,8 @@ Transform:
   m_GameObject: {fileID: 1945711759}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -67.6, y: 35.3, z: 49.7}
-  m_LocalScale: {x: 15, y: 15, z: 15}
+  m_LocalPosition: {x: -67.6, y: 38.2, z: 49.7}
+  m_LocalScale: {x: 40, y: 40, z: 40}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 210270856}
@@ -8359,7 +8359,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 1
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 0
 --- !u!136 &1945711767
@@ -8381,8 +8381,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.05
-  m_Height: 2.4
+  m_Radius: 0.40384614
+  m_Height: 0.9230769
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1952034433 stripped
