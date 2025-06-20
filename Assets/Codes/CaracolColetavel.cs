@@ -17,10 +17,10 @@ public class CaracolColetavel : MonoBehaviour
     {
         UI.enabled = false;
 
-        if (PlayerPrefs.GetInt("Item_" + itemID, 0) == 1)
+        if (GameSessionData.Instance.itensColetados.Contains(itemID))
         {
-            Destroy(gameObject); // Já foi coletado antes
-            return; // sair do Start
+            Destroy(gameObject); // Já foi coletado durante a sessão
+            return;
         }
 
 
@@ -39,8 +39,7 @@ public class CaracolColetavel : MonoBehaviour
             UI.enabled = true;
             if (Input.GetKey(KeyCode.E))
             {
-                PlayerPrefs.SetInt("Item_" + itemID, 1);
-                PlayerPrefs.Save();
+                GameSessionData.Instance.itensColetados.Add(itemID);
 
                 Caracois = Caracois + 1;
                 Destroy(gameObject);
