@@ -19,7 +19,7 @@ public class CaracolColetavel : MonoBehaviour
 
         if (GameSessionData.Instance.itensColetados.Contains(itemID))
         {
-            Destroy(gameObject); // Já foi coletado durante a sessão
+            gameObject.transform.position = new Vector3(0, -100, 0); // Já foi coletado durante a sessão
             return;
         }
 
@@ -42,7 +42,7 @@ public class CaracolColetavel : MonoBehaviour
                 GameSessionData.Instance.itensColetados.Add(itemID);
 
                 Caracois = Caracois + 1;
-                Destroy(gameObject);
+                gameObject.transform.position = new Vector3(0, -100, 0);
                 UI.enabled = false;
             }
         }
