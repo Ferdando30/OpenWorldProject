@@ -18,13 +18,14 @@ public class Character : MonoBehaviour
     Path path;
 
     NavMeshAgent agent;
-    //Animator animator;
+    Animator animator;
 
     float time = 0f;
 
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
         gameInfo = GameObject.FindWithTag("Game Info").GetComponent<GameInfo>();
     }
 
@@ -46,6 +47,15 @@ public class Character : MonoBehaviour
                 agent.destination = path.GetNextWaypoint();
             }
         }
+        float normalizedSpeed = Mathf.InverseLerp(0f, agent.speed, agent.velocity.magnitude);
+        animator.SetFloat("Speed", normalizedSpeed);
+        //if (Input.GetKey(KeyCode.Alpha1)) {
+        //    animator.SetFloat("Speed", 0f); // idle
+        //} else if (Input.GetKey(KeyCode.Alpha2)) {
+        //    animator.SetFloat("Speed", 0.5f); // walk
+        //} else if (Input.GetKey(KeyCode.Alpha3)) {
+        //    animator.SetFloat("Speed", 1f); // run
+        //}
     }
     private void OnTriggerEnter(Collider other)
     {
