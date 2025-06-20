@@ -39,12 +39,15 @@ public class GameInfo : MonoBehaviour
         }
 
         DontDestroyOnLoad(this.gameObject);
+        if (SceneManager.GetActiveScene().name == "MainGametest")
+        {
+            respawn1 = GameObject.Find("Respawn Shrine 1").GetComponent<RespawnPoint>();
+            respawn2 = GameObject.Find("Respawn Shrine 2").GetComponent<RespawnPoint>();
+            respawn3 = GameObject.Find("Respawn Shrine 3").GetComponent<RespawnPoint>();
+            respawn4 = GameObject.Find("Respawn Shrine 4").GetComponent<RespawnPoint>();
+            respawn5 = GameObject.Find("Respawn Shrine 5").GetComponent<RespawnPoint>();            
+        }
 
-        respawn1 = GameObject.Find("Respawn Shrine 1").GetComponent<RespawnPoint>();
-        respawn2 = GameObject.Find("Respawn Shrine 2").GetComponent<RespawnPoint>();
-        respawn3 = GameObject.Find("Respawn Shrine 3").GetComponent<RespawnPoint>();
-        respawn4 = GameObject.Find("Respawn Shrine 4").GetComponent<RespawnPoint>();
-        respawn5 = GameObject.Find("Respawn Shrine 5").GetComponent<RespawnPoint>();
     }
     
     void Start()
