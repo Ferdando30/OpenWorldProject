@@ -31,7 +31,7 @@ public class Cristal : MonoBehaviour
             if (Input.GetKey(KeyCode.E))
             {
                 CristalColetado = true;
-                transform.position = new Vector3(0, -5, 0);
+                transform.position = new Vector3(0, -500, 0);
                 UI.enabled = false;
             }
         }

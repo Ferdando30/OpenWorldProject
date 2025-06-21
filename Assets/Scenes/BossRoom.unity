@@ -10016,61 +10016,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2142480073}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2142932367
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2142932369}
-  - component: {fileID: 2142932368}
-  m_Layer: 0
-  m_Name: GameInfo
-  m_TagString: Game Info
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2142932368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142932367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e0a5d72dc10c8d4a87a2e22f2ab2dff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Shrine1Completed: 0
-  Shrine2Completed: 0
-  Shrine3Completed: 0
-  Shrine4Completed: 0
-  LastShrineVisited: None
-  player: {fileID: 0}
-  respawn1: {fileID: 0}
-  respawn2: {fileID: 0}
-  respawn3: {fileID: 0}
-  respawn4: {fileID: 0}
-  respawn5: {fileID: 0}
---- !u!4 &2142932369
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142932367}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.885885, y: 84.72935, z: 17.413857}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2145952601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11347,7 +11292,6 @@ SceneRoots:
   - {fileID: 1073950034}
   - {fileID: 540880231}
   - {fileID: 345890312}
-  - {fileID: 2142932369}
   - {fileID: 1945711763}
   - {fileID: 273119284}
   - {fileID: 380486461}
